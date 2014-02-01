@@ -1,0 +1,37 @@
+#Resta
+
+Después de que me encontré las canicas decidí regalarle 3 a mi hermano ¿Cuántas canicas me quedan?
+
+y una vez más dirás Fácil, 4; pero comprobémoslo con la definición de números naturales
+
+
+7 = 6 + 1
+7 = 5 + 1 + 1
+7 = 4 + 1 + 1 + 1
+7 = 4 + 3
+
+y como sabemos que regalé 3 canicas, el número con el que 3 suma 7 es cuatro, cuatro son las que me quedan. 
+
+Eso es lo que expresa la resta, es la operación contraria de la Suma.
+
+Recuerda siempre que a la resta se le llama también **diferencia**, en otras palabras:
+
+Cuál es la diferencia entre las canicas que tengo ahora y las que tenía antes de regalar: 3, puesto que tres es la cantidad de canicas que regalé, es entonces la diferencia que hay ni una más, ni una menos.
+
+Es ya sabido que la resta se expresa con el signo - y entonces expresado en terminos formales
+
+
+7 - 3 = 4
+
+Recuerdas que los números negativos también se expresan interponiendo el símbolo de menos a los números, Piensa ¿Cuál es la razón?.
+
+Los numeros negativos representan una resta con respecto del 0, regalar tres canicas lo expresaremos 
+
+-3
+
+puesto que disminuye nuestra cantidad de canicas.
+
+Independientemente de que poseea 10, 50, 6, o 7 canicas el regalar 3 restará tres de mis posesiones, esa es la razón de que los númerso negativos se expresen de esa manera.
+
+¿Se te ocurre alguna otra relación entre la resta y los números negativos?, Vamos piensa en matemáticas no hay una forma de resolver las situaciones.
+
