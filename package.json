@@ -1,0 +1,27 @@
+{
+  "name": "paola-matematicas",
+  "version": "0.1.0",
+  "author": "AlonsoSoto <inzurrekt@gmail.com>",
+  "description": "Curso de Matemáticas",
+  "main": "main.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/inzurrekt/paola-matematicas.git"
+  },
+  "keywords": [
+    "cli",
+    "http",
+    "server"
+  ],
+  "dependencies" : {
+    "jade"   :  "latest",
+    "grunt"  : "latest",
+    "grunt-contrib-connect" : "latest",
+    "grunt-contrib-coffee" : "latest",
+    "grunt-contrib-jade" : "latest",
+    "grunt-markdown":"latest"
+  },
+
+  "license": "MIT"
+
+}

@@ -26,7 +26,7 @@ para 10 horas de viaje
 
 para el destino lejanísimo decimos:
 
-7(dias) &times; 8(horas al dia) * 100 = 5600
+7(dias) &times; 8(horas al dia) &times; 100 = 5600
 
 La multiplicación se basa en repetir sumas. En ingles se dice times, es decir veces,diriamos 8 veces 7 es 56
 
