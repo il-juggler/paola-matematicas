@@ -1,0 +1,23 @@
+{
+	"debug" : false,
+	"title" : "Matemáticas",
+
+	"contents" : [
+		{
+			"title" : "Conceptos Básicos",
+			"contents" : [
+				{"title": "¿Qué es la matemática?", "src" : "lecciones/leccion-1/leccion-1-1.html"},
+				{"title" : "Clasificación de los números", "src" : "lecciones/leccion-1/leccion-1-2.html"}
+			]
+		},
+
+		{
+			"title" : "Aritmética",
+			"contents" : [
+				{"title" : "Suma", "src" : "lecciones/leccion-1/leccion-1-3.html"},
+				{"title" : "Resta", "src" : "lecciones/leccion-1/leccion-1-4.html"},
+				{"title" : "Neutro Aditivo", "src" : "lecciones/leccion-1/leccion-1-5.html"}
+			]
+		}
+	]
+}

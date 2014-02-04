@@ -23,9 +23,9 @@ module.exports = function(grunt) {
 		        	ext  : '.html'
 		        }],
 		        options: {
-			      data: {
-			        debug: false
-			      }
+			      data: function(dest, src) {
+				    return require('./jade-locals.json');
+				  }
 			    }
 		    }
 		},
@@ -63,11 +63,22 @@ module.exports = function(grunt) {
 			    files: [{
 			    	expand : true,
 			    	cwd : 'src/coffee',
-			    	src : ['*.coffee','**/*.coffee'],
+			    	src : ['*.coffee', '**/*.coffee'],
 			    	dest: 'public/js',
 			    	ext : '.js'
 			    }]
 			},
+		},
+
+
+		watch : {
+			all : {
+				files : ['src/coffee/**.coffee','src/**.jade'],
+				tasks : ['coffee','jade'],
+				options : {
+					livereload : true
+				}
+			}
 		}
 
 	});
@@ -76,7 +87,7 @@ module.exports = function(grunt) {
 	grunt.loadNpmTasks('grunt-contrib-coffee');
 	grunt.loadNpmTasks('grunt-contrib-jade');
 	grunt.loadNpmTasks('grunt-contrib-connect');
+	grunt.loadNpmTasks('grunt-contrib-watch');
 
-	grunt.registerTask('server', ['connect']);
 	grunt.registerTask('auto', ['markdown:all', 'jade:html','coffee:compile', 'connect']);
 }

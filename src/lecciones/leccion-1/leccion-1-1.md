@@ -36,6 +36,11 @@ Hasta que en un momento a alguién se le ocurrió agrupar los objetos similares 
 
 Quizá poco después la humanidad adquirió consciencia de que los abstraer valores numéricos le podía ayudar en muchas cosas
 
+``` javascript
+
+console.log(8);
+```
+
 
 ###En esta unidad aprendiste
 

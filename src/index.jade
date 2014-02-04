@@ -1,9 +1,25 @@
 doctype html
-html(ng-app="maths")
-	head 
-		title «Matemáticas»
-	body
-		div HOLA MUNDO
-		script(src="d3.v3/d3.v3.js")
-		script(src="angular-1.2.10/angular.min.js")
-		script(src="js/math.js")
+html(ng-app="math")
+  head 
+    title «Matemáticas»
+  body
+    div 
+      svg(mat-sum-points="[910,90]")
+    
+    ul.themes
+      each theme in contents
+        li #{theme.title}
+          ul.lessons 
+            each lesson in theme.contents
+              li 
+                a.lesson(href=lesson.src) #{lesson.title}
+
+    script(src="jquery-2.1.0/jquery.js")
+    script(src="d3.v3/d3.v3.js")
+    script(src="js/lamdas.js")
+    script(src="angular-1.2.10/angular.min.js")
+    script(src="angular-1.2.10/angular-route.min.js")
+    script(src="angular-1.2.10/angular-animate.min.js")
+    script(src="js/math.js")
+    script(src="http://localhost:35729/livereload.js")
+    

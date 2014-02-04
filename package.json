@@ -19,7 +19,10 @@
     "grunt-contrib-connect" : "latest",
     "grunt-contrib-coffee" : "latest",
     "grunt-contrib-jade" : "latest",
-    "grunt-markdown":"latest"
+    "grunt-markdown":"latest",
+    "grunt-contrib-watch" : "latest",
+    "marked" : "latest",
+    "highlight" : "latest"
   },
 
   "license": "MIT"
