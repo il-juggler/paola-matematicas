@@ -4,9 +4,9 @@ angular.module('math',['ngRoute','ngAnimate'])
 	$rootScope.holaMundo = 'HOLA-MUNDO'
 ])
 
-###
- [[2,5], [1,1,5]]
-###
+#[[2,5], [1,1,5]]#
+
+
 
 .directive('matSumPoints', ($parse) ->
 	{
