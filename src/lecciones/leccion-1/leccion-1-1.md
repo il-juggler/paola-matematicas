@@ -1,4 +1,4 @@
-#Matemática
+# Matemática
 
 La matemática es una **ciencia formal** que, en general, estudia los números.
 
@@ -6,7 +6,7 @@ Todo el mundo comprende de manera informal lo que es un número.
 
 Pero pocas veces nos detenemos analizar lo que **formalmente es un número**
 
-##¿Qué es un número?
+## ¿Qué es un número?
 
 Es una representación **abstracta** de una cantidad, o valor, la matemática se encarga de estudiar los entes abstractos y como se relacionan entre ellos.
 
@@ -14,7 +14,7 @@ Una abstracción nos ayuda a **separar** las cualidades de las cosas, en este ca
 
 La matemática y la abstracción están ampliamente relacionadas.
 
-##La unidad
+## La unidad
 
 Sería válido decir que la base de todo razonamiento matemático se basa en la unidad **1**
 
@@ -42,7 +42,7 @@ console.log(8);
 ```
 
 
-###En esta unidad aprendiste
+### En esta unidad aprendiste
 
 1. El concepto de Abstracción 
 1. El concepto de Número Natural
